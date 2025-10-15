@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WiFi-location موقع تجريبي</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #1e90ff 0%, #ffffff 100%);
+      font-family: 'Cairo', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #222;
+      text-align: center;
+    }
+    .container {
+      margin-top: 80px;
+      background: rgba(255,255,255,0.85);
+      padding: 40px 25px;
+      border-radius: 18px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      display: inline-block;
+      max-width: 400px;
+    }
+    h1 {
+      color: #1e90ff;
+      margin-bottom: 18px;
+      font-size: 2.3em;
+    }
+    p {
+      font-size: 1.15em;
+      margin-bottom: 10px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background: #1e90ff;
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 1em;
+      transition: background 0.2s;
+      margin-top: 20px;
+    }
+    .btn:hover {
+      background: #0a61b4;
+    }
+    footer {
+      margin-top: 60px;
+      color: #888;
+      font-size: 0.95em;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>مرحباً بك في WiFi-location!</h1>
+    <p>هذا موقع تجريبي مجاني عبر <strong>GitHub Pages</strong> يعمل بتقنية <span style="color:#1e90ff;">https</span> بشكل تلقائي.</p>
+    <a class="btn" href="https://github.com/im4684095-ctrl/WiFi-location.github.io" target="_blank">شاهد الكود على GitHub</a>
+  </div>
+  <footer>
+    &copy; 2025 WiFi-location | جميع الحقوق محفوظة
+  </footer>
+</body>
+</html>
